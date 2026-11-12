@@ -1,0 +1,99 @@
+Data seed: 2026 | Operation seed: 12026 | Values: 0..99999
+Pivot: First (Lomuto) | Repeat: 30 | CPU time average
+Memory: peak heap + estimated recursive workspace
+
+Data Size : 1000
+Operations: 200
+                           Quick Sort         AVL Tree
+------------------------------------------------------
+Total Time                0.466667 ms      0.266667 ms
+Comparisons                    114350            21360
+Data Movements                  72276             2079
+Memory Usage               8880 Bytes      35896 Bytes
+Final Data Count                 1098             1098
+Sort Comparisons                11291            17292
+Operation Compares             103059             4068
+Sort Movements                  17060             1978
+Operation Moves                 55216              101
+Insertions: 101 | Delete attempts: 99 | Deleted: 3 | Missing: 96
+Verification: PASS (all values, duplicates, AVL balance)
+
+Data Size : 2000
+Operations: 400
+                           Quick Sort         AVL Tree
+------------------------------------------------------
+Total Time                1.433333 ms      0.766667 ms
+Comparisons                    419213            47604
+Data Movements                 264763             4128
+Memory Usage              17680 Bytes      70528 Bytes
+Final Data Count                 2183             2183
+Sort Comparisons                23639            38698
+Operation Compares             395574             8906
+Sort Movements                  37160             3934
+Operation Moves                227603              194
+Insertions: 196 | Delete attempts: 204 | Deleted: 13 | Missing: 191
+Verification: PASS (all values, duplicates, AVL balance)
+
+Data Size : 4000
+Operations: 800
+                           Quick Sort         AVL Tree
+------------------------------------------------------
+Total Time                5.733333 ms      1.733333 ms
+Comparisons                   1742544           104248
+Data Movements                1001919             8140
+Memory Usage              35280 Bytes     137128 Bytes
+Final Data Count                 4358             4358
+Sort Comparisons                54540            84974
+Operation Compares            1688004            19274
+Sort Movements                  82067             7764
+Operation Moves                919852              376
+Insertions: 402 | Delete attempts: 398 | Deleted: 44 | Missing: 354
+Verification: PASS (all values, duplicates, AVL balance)
+
+Data Size : 8000
+Operations: 1600
+                           Quick Sort         AVL Tree
+------------------------------------------------------
+Total Time               22.733333 ms      3.833333 ms
+Comparisons                   6855044           225247
+Data Movements                4162278            15753
+Memory Usage              70480 Bytes     258800 Bytes
+Final Data Count                 8647             8647
+Sort Comparisons               122949           184249
+Operation Compares            6732095            40998
+Sort Movements                 190569            15065
+Operation Moves               3971709              688
+Insertions: 805 | Delete attempts: 795 | Deleted: 158 | Missing: 637
+Verification: PASS (all values, duplicates, AVL balance)
+
+Data Size : 16000
+Operations: 3200
+                           Quick Sort         AVL Tree
+------------------------------------------------------
+Total Time               94.900000 ms      8.200000 ms
+Comparisons                  26719631           478881
+Data Movements               18748330            29791
+Memory Usage             140880 Bytes     468504 Bytes
+Final Data Count                16989            16989
+Sort Comparisons               283590           393077
+Operation Compares           26436041            85804
+Sort Movements                 433575            28617
+Operation Moves              18314755             1174
+Insertions: 1597 | Delete attempts: 1603 | Deleted: 608 | Missing: 995
+Verification: PASS (all values, duplicates, AVL balance)
+
+Data Size : 20000
+Operations: 4000
+                           Quick Sort         AVL Tree
+------------------------------------------------------
+Total Time              149.566667 ms      8.566667 ms
+Comparisons                  41237170           608092
+Data Movements               30544120            36230
+Memory Usage             176080 Bytes     558136 Bytes
+Final Data Count                21043            21043
+Sort Comparisons               339846           500034
+Operation Compares           40897324           108058
+Sort Movements                 490612            34918
+Operation Moves              30053508             1312
+Insertions: 1974 | Delete attempts: 2026 | Deleted: 931 | Missing: 1095
+Verification: PASS (all values, duplicates, AVL balance)
